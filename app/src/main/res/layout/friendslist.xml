@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/combo2"
+    android:gravity="center_vertical">
+
+    <!--USER PROFILE IMAGE-->
+    <ImageView
+        android:id="@+id/feed_userpic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/user2"/>
+
+    <!--USER NAME-->
+
+    <TextView
+        android:id="@+id/friend_username"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="NAME"/>
+
+    <!-- CONTENT-->
+
+    <TextView
+        android:id="@+id/friend_content"
+        android:textAlignment="textEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="CONTENT"
+        android:layout_weight="1"/>
+
+    <!-- ActionBTN-->
+    <ImageButton
+        android:id="@+id/bVisit"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/home2"/>
+
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/combo2"
+    android:gravity="center_vertical">
+
+    <!-- CONTENT-->
+
+    <TextView
+        android:id="@+id/habit_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="CONTENT"
+        android:layout_weight="1"/>
+
+    <!-- CHECK BOX-->
+    <CheckBox
+        android:id="@+id/habitCheckBox"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_margin="7dp"/>
+
+
+</LinearLayout>

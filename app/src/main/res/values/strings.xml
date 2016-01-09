@@ -1,0 +1,55 @@
+<resources>
+<string name="app_name">Hapit</string>
+
+    <string name="User1_name">name1</string>
+    <string name="User2_name">B</string>
+    <string name="User3_name">C</string>
+    <string name="User4_name">D</string>
+    <string name="User5_name">E</string>
+
+    <string name="User1_content">content1</string>
+    <string name="User2_content">AB</string>
+    <string name="User3_content">AC</string>
+    <string name="User4_content">AD</string>
+    <string name="User5_content">AE</string>
+    <string name="save_b">Save Habit</string>
+    <string name="title_hint">Title Hint</string>
+    <string name="category">Category</string>
+    <string name="diet">Diet</string>
+    <string name="sleep">Sleep</string>
+    <string name="study">Study</string>
+    <string name="gym">Gym</string>
+    <string name="time">Time</string>
+    <string name="behavior">Behavior</string>
+    <string name="save_toast">Habit created</string>
+
+    <string name="schedule">Schedule</string>
+    <string name="due">Due</string>
+    <string name="monday">Mo</string>
+    <string name="tuesday">Tu</string>
+    <string name="wednesday">We</string>
+    <string name="thursday">Th</string>
+    <string name="friday">Fr</string>
+    <string name="saturday">Sa</string>
+    <string name="sunday">Su</string>
+    <string name="select_all">Select All</string>
+    <string name="prvt">Private</string>
+    <string name="pblc">Public</string>
+    <string name="privacy">Privacy</string>
+    <string name="prompt_email">email</string>
+    <string name="prompt_password">password</string>
+    <string name="action_sign_in_short">*</string>
+    <string name="action_sign_in">Log In or Register</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="send_reminder">Reminder is sent</string>
+</resources>

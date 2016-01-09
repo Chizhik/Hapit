@@ -1,0 +1,210 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!--Load Habit-->
+    <Button android:id="@+id/save_b"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/save_b"
+        android:textSize="10dp"
+        android:layout_gravity="right" />
+
+
+    <!--Title-->
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title_hint"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:background="#aaaaaa"/>
+
+    <!--Category-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category"
+            android:textSize="30dp"/>
+
+        <RadioGroup android:id="@+id/category_rG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+
+
+                <ToggleButton android:id="@+id/study_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="@string/study"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"/>
+
+                <ToggleButton android:id="@+id/behavior_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="@string/behavior"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"/>
+                <ToggleButton android:id="@+id/diet_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="@string/diet"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+
+                <ToggleButton android:id="@+id/gym_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="@string/gym"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"/>
+                <ToggleButton android:id="@+id/sleep_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="@string/sleep"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"/>
+                <ToggleButton android:id="@+id/time_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="@string/time"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"/>
+
+            </LinearLayout>
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <!--Schedule-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/schedule"
+            android:textSize="30dp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+
+            <ToggleButton android:id="@+id/mo_b"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textOn="@string/monday"
+                android:textOff="@string/monday"
+                android:textSize="17dp" />
+
+            <ToggleButton android:id="@+id/tu_b"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textOff="@string/tuesday"
+                android:textOn="@string/tuesday"
+                android:textSize="17dp" />
+
+            <ToggleButton android:id="@+id/we_b"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textOn="@string/wednesday"
+                android:textOff="@string/wednesday"
+                android:textSize="17dp" />
+
+            <ToggleButton android:id="@+id/th_b"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textOn="@string/thursday"
+                android:textOff="@string/thursday"
+                android:textSize="17dp" />
+
+            <ToggleButton android:id="@+id/fr_b"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textOn="@string/friday"
+                android:textOff="@string/friday"
+                android:textSize="17dp" />
+
+            <ToggleButton android:id="@+id/sa_b"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textOn="@string/saturday"
+                android:textOff="@string/saturday"
+                android:textSize="17dp" />
+
+            <ToggleButton android:id="@+id/su_b"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textOn="@string/sunday"
+                android:textOff="@string/sunday"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/privacy"
+            android:textSize="30dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ToggleButton android:id="@+id/private_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/prvt"
+                android:textOff="@string/pblc"
+                android:textSize="20dp"/>
+
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
